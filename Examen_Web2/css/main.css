@@ -1,0 +1,108 @@
+* {
+  font-family: 'Titillium Web', sans-serif;
+  color: white; }
+
+.container {
+  width: 85%;
+  margin: auto; }
+
+.header {
+  background-color: #87509c;
+  height: 596px;
+  position: relative; }
+
+.logo {
+  padding-top: 60px;
+  padding-left: 210px;
+  display: block; }
+
+.menu {
+  list-style: none;
+  float: right;
+  padding-right: 180px;
+  width: 23.15%; }
+
+ul li {
+  float: left;
+  padding-right: 15px;
+  text-transform: uppercase; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+.texto {
+  text-align: center;
+  font-size: 20px;
+  width: 48.21%;
+  padding-left: 400px; }
+
+.btn {
+  color: white;
+  background-color: #eb7d4b;
+  width: 35%;
+  height: 72px;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+.boton {
+  padding-left: 650px; }
+
+.content {
+  background-color: #17c2a4;
+  height: 747px; }
+
+.content h1 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 118px;
+  width: 31.84%;
+  padding-left: 550px; }
+
+.content p {
+  text-align: center;
+  width: 31.84%;
+  padding-left: 550px; }
+
+.colums li {
+  list-style: none;
+  width: 197px;
+  padding-right: 94px; }
+
+.colums {
+  padding-left: 403px;
+  padding-top: 80px;
+  width: 54.84%; }
+
+.colums h2 {
+  padding-top: 48px;
+  text-align: center; }
+
+.footer {
+  background-color: #3c5499;
+  height: 914px; }
+
+.footer h1 {
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+  padding-top: 105px; }
+
+.footer p {
+  text-align: center; }
+
+.links {
+  background-color: #344b8e;
+  height: 106px; }
+
+.links ul {
+  margin: 0;
+  list-style: none; }
+
+@media screen and (max-width: 800px) {
+  .colums {
+    width: 40%; } }
+
+/*# sourceMappingURL=main.css.map */
